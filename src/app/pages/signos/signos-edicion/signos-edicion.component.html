@@ -1,0 +1,50 @@
+<div class = "a">
+  <mat-toolbar >Signos Vitales</mat-toolbar>
+<div class="example-container">
+
+  <mat-form-field>
+  <mat-select placeholder="Seleccione paciente" [(ngModel)]="idPacienteSeleccionado">
+      <mat-option *ngFor="let p of (pacientes$ | async)" [value]="p.idPaciente">{{p.nombres}} {{p.apellidos}}
+      </mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+<button mat-button color="primary" (click)="abrirDialogo(paciente)"  >
+  <mat-icon>add</mat-icon>
+  <span>Nuevo Paciente</span>
+</button>
+
+
+<mat-form-field appearance="fill">
+  <mat-label>Escoja una fecha</mat-label>
+  <input matInput [matDatepicker]="picker"
+  [(ngModel)]="fechaSeleccionada"
+  placeholder="Escoger una fecha dd/mm/yyyy" [max]="maxFecha" >
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<mat-form-field>
+  <input matInput placeholder="Temperatura" [(ngModel)]="temperatura">
+</mat-form-field>
+
+<mat-form-field>
+  <input matInput placeholder="Pulso" [(ngModel)]="pulso">
+</mat-form-field>
+
+<mat-form-field>
+  <input matInput placeholder="Ritmo respiratorio" [(ngModel)]="ritmo">
+</mat-form-field>
+
+<button mat-raised-button color="primary" (click)="aceptar()" type="submit">
+  <mat-icon>done</mat-icon>
+  <span>Aceptar</span>
+</button>
+
+<button mat-raised-button color="accent" routerLink='/pages/signos' type="button">
+  <mat-icon>close</mat-icon>
+  <span>Cancelar</span>
+</button>
+</div>
+

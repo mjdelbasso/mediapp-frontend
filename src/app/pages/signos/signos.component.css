@@ -1,0 +1,91 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-paciente {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.mat-column-fecha {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-temperatura {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-pulso {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-ritmo {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-acciones {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 16% !important;
+  width: 16% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
