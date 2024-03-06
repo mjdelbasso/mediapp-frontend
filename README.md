@@ -1,27 +1,37 @@
-# MediappFrontend
+MediAPP: Medical Appointment Management
+Project Description:
+MediAPP is a web application designed to streamline the management of medical appointments in clinics and healthcare facilities. With a user-centric approach and an intuitive interface, MediAPP offers an efficient solution for organizing and scheduling medical consultations.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+Key Features:
+Patient Registration: Users can create patient profiles, including personal information, medical history, and emergency contacts.
 
-## Development server
+Appointment Scheduler: MediAPP allows doctors and administrators to manage an appointment schedule, with options to schedule, modify, and cancel appointments as needed.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Automated Notifications: Patients receive automatic appointment reminders via email or text messages, reducing no-shows and rescheduling.
 
-## Code scaffolding
+Resource Management: Healthcare professionals can allocate specific resources to each consultation, such as examination rooms or medical equipment, to ensure efficient and seamless care delivery.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Consultation History: MediAPP maintains a detailed record of all past medical consultations, including diagnoses, treatments, and prescriptions, for better continuity of care.
 
-## Build
+Data Security: With robust security measures, MediAPP ensures the confidentiality and protection of sensitive medical information, complying with privacy regulations and industry standards.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Technologies Used:
+Frontend: HTML5, CSS3, JavaScript, Bootstrap
+Backend: Java, Spring Framework
+Database: PostgreSQL
+Asynchronous Communication: AJAX, WebSockets
+Security: JWT (JSON Web Tokens), SSL/TLS
+Installation and Configuration:
+To get MediAPP up and running in your local environment, follow these steps:
 
-## Running unit tests
+Clone this repository to your local machine using the git clone command.
+Set up the PostgreSQL database according to the instructions provided in the database-setup.md file.
+Configure environment variables in the .env file according to your environment needs.
+Run the application using Maven or your preferred IDE.
+Access the application from your web browser by entering the URL provided by the application.
+Enjoy simplified medical appointment management with MediAPP!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Contribution:
+If you wish to contribute to the development of MediAPP, your contributions are welcome! Feel free to submit pull requests with new features, bug fixes, or performance improvements.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Thank you for your interest and support in making MediAPP an even better tool for the medical community!
